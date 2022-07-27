@@ -18,7 +18,7 @@ const ModelOverlay=(errors)=>{
                 <p>{errors.errors.message}</p>
             </div>
             <footer className={classes.actions}>
-                <Button onClick={errors.errors.onConfirm}>Okay</Button>
+                <Button onClick={errors.errors.onConfirm}>Close</Button>
             </footer>
         </Card>
     );
